@@ -1,0 +1,21 @@
+# dependencies
+node_modules/
+*/node_modules/
+
+# environment variables (secrets - never commit these)
+.env
+.env.local
+*/.env
+*/.env.local
+
+# Next.js build output
+.next/
+*/.next/
+
+# uploaded video files (too large for GitHub, will need re-uploading after deploy)
+server/uploads/*
+!server/uploads/.gitkeep
+
+# OS files
+.DS_Store
+Thumbs.db
